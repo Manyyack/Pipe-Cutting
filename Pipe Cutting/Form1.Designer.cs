@@ -46,6 +46,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.tb_pre_space = new System.Windows.Forms.TextBox();
             this.tb_post_space = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.tb_total_pipe_length = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // output_box
@@ -66,11 +68,10 @@
             // 
             // tb_total_pipes
             // 
-            this.tb_total_pipes.Location = new System.Drawing.Point(229, 38);
+            this.tb_total_pipes.Location = new System.Drawing.Point(229, 222);
             this.tb_total_pipes.Name = "tb_total_pipes";
             this.tb_total_pipes.Size = new System.Drawing.Size(100, 20);
             this.tb_total_pipes.TabIndex = 2;
-            this.tb_total_pipes.Text = "1";
             // 
             // tb_total_section
             // 
@@ -92,7 +93,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(138, 45);
+            this.label2.Location = new System.Drawing.Point(138, 229);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(85, 13);
             this.label2.TabIndex = 5;
@@ -202,11 +203,30 @@
             this.tb_post_space.TabIndex = 14;
             this.tb_post_space.Text = "86";
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(118, 41);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(105, 13);
+            this.label9.TabIndex = 19;
+            this.label9.Text = "Total Length Of Pipe";
+            // 
+            // tb_total_pipe_length
+            // 
+            this.tb_total_pipe_length.Location = new System.Drawing.Point(229, 38);
+            this.tb_total_pipe_length.Name = "tb_total_pipe_length";
+            this.tb_total_pipe_length.Size = new System.Drawing.Size(100, 20);
+            this.tb_total_pipe_length.TabIndex = 18;
+            this.tb_total_pipe_length.Text = "1000";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(843, 490);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.tb_total_pipe_length);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.tb_pre_space);
@@ -252,6 +272,8 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox tb_pre_space;
         private System.Windows.Forms.TextBox tb_post_space;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox tb_total_pipe_length;
     }
 }
 
